@@ -1,0 +1,107 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "0efe1d6f-8d49-4f93-900f-0f94bdd134a7": {
+        "id": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "parent": null,
+        "name": "foxTestIndunilMerge",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "cfcaa036-66ba-489c-994d-26f657584119"
+        ],
+        "isRemovable": false,
+        "filePath": "foxTestIndunilMerge"
+      },
+      "cfcaa036-66ba-489c-994d-26f657584119": {
+        "id": "cfcaa036-66ba-489c-994d-26f657584119",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "lambda.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/lambda.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInametestapiany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "deletedFiles": [],
+    "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+    "openFiles": [
+      "cfcaa036-66ba-489c-994d-26f657584119"
+    ],
+    "currentFileId": "cfcaa036-66ba-489c-994d-26f657584119",
+    "resources": {
+      "apigusEast1sachithraAPInametestapiany": {
+        "name": "apigusEast1sachithraAPInametestapiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "test/api",
+          "resourcePath": "/test/api",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "TestM",
+          "mode": 1
+        }
+      }
+    },
+    "customTemplate": {
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "foxTestIndunilMerge",
+    "projectDescription": "check after merge test",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "platformRegions": {},
+    "lastSave": 1567504301611
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "foxTestIndunilMerge",
+      "url": "https://github.com/Indunil1992/foxTestIndunilMerge"
+    }
+  }
+}
