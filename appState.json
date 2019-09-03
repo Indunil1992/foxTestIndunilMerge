@@ -86,6 +86,22 @@
       {
         "lambdaId": "all",
         "varKey": "key1",
+        "varValue": "123",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "key2",
+        "varValue": "234",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
+      },
+      {
+        "lambdaId": "all",
+        "varKey": "key3",
         "varValue": null,
         "shouldPersist": false,
         "displayOnly": false,
@@ -103,7 +119,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567504429444
+    "lastSave": 1567505069491
   },
   "VCS_STATE": {
     "provider": "GitHub",
