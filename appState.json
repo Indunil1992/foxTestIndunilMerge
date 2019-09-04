@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/lambda.js",
-        "code": "exports.handler = function (event, context, callback) {\n    debugger;\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "let AWS = require('aws-sdk');\nconst ses = new AWS.SES();\n\nexports.handler = function (event, context, callback) {\n\n    ses.sendEmail({\n        Destination: {\n            ToAddresses: ['indunil@adroitlogic.com'],\n            CcAddresses: ['indunil@adroitlogic.com'],\n            BccAddresses: []\n        },\n        Message: {\n            Body: {\n                Text: {\n                    Data: `Body body `\n                }\n            },\n            Subject: {\n                Data: 'test Merge '\n            }\n        },\n        Source: 'indunil@adroitlogic.com',\n    }, function (err, data) {\n        if (err) console.log(err, err.stack); // an error occurred\n        else console.log(data);           // successful response\n    });\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -30,7 +30,12 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": [],
+        "triggers": [
+          {
+            "resourceName": "apigusEast1sachithraAPInametestapiany",
+            "config": {}
+          }
+        ],
         "testCases": {
           "387a6d99-7031-486b-bf60-d98b8a76f8af": {
             "id": "387a6d99-7031-486b-bf60-d98b8a76f8af",
@@ -48,7 +53,51 @@
       "cfcaa036-66ba-489c-994d-26f657584119"
     ],
     "currentFileId": "cfcaa036-66ba-489c-994d-26f657584119",
-    "resources": {},
+    "resources": {
+      "apigusEast1sachithraAPInametestapiany": {
+        "name": "apigusEast1sachithraAPInametestapiany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiMode": 1,
+          "apiName": "sachithraAPIname",
+          "apiId": "052p9kjn18",
+          "endpointType": "REGIONAL",
+          "rootResourceId": "zrjp6rdv3b",
+          "existingResources": {
+            "/": "zrjp6rdv3b"
+          },
+          "resourceMode": 0,
+          "resourceName": "test/api",
+          "resourcePath": "/test/api",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 1,
+          "stageName": "Test",
+          "stageDeploymentId": "z8rbt4",
+          "mode": 1
+        }
+      },
+      "ses-indunil@adroitlogic.com": {
+        "name": "ses-indunil@adroitlogic.com",
+        "type": "SES",
+        "config": {
+          "selectedIdentity": "indunil@adroitlogic.com",
+          "projectRegion": "us-east-1",
+          "params": {
+            "to": "indunil@adroitlogic.com",
+            "cc": "indunil@adroitlogic.com",
+            "bcc": "",
+            "subject": "test Merge ",
+            "body": {
+              "text": "Body body ",
+              "html": ""
+            }
+          }
+        }
+      }
+    },
     "customTemplate": {
       "dialect": null,
       "definitions": null
@@ -88,7 +137,15 @@
       }
     ],
     "packageJSON": {
-      "dependencies": {}
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "javascript",
+          "version": "2.176.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
     }
   },
   "PROJECT_META": {
@@ -98,7 +155,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567578930961
+    "lastSave": 1567579292421
   },
   "VCS_STATE": {
     "provider": "GitHub",

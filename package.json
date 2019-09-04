@@ -2,5 +2,7 @@
   "name": "foxTestIndunilMerge",
   "version": "1.0.2",
   "dependencies": {},
-  "devDependencies": {}
+  "devDependencies": {
+    "aws-sdk": "2.176.0"
+  }
 }
