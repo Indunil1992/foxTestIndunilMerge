@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "cfcaa036-66ba-489c-994d-26f657584119"
+          "cfcaa036-66ba-489c-994d-26f657584119",
+          "2e72702d-2621-47de-a0c5-bf24863c1b95"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -41,14 +42,34 @@
           "Version": "2012-10-17",
           "Statement": []
         }
+      },
+      "2e72702d-2621-47de-a0c5-bf24863c1b95": {
+        "id": "2e72702d-2621-47de-a0c5-bf24863c1b95",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "lambda-1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/lambda-1.js",
+        "code": "exports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "deletedFiles": [],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
-      "cfcaa036-66ba-489c-994d-26f657584119"
+      "cfcaa036-66ba-489c-994d-26f657584119",
+      "2e72702d-2621-47de-a0c5-bf24863c1b95"
     ],
-    "currentFileId": "cfcaa036-66ba-489c-994d-26f657584119",
+    "currentFileId": "2e72702d-2621-47de-a0c5-bf24863c1b95",
     "resources": {
       "apigusEast1sachithraAPInametestffoxany": {
         "name": "apigusEast1sachithraAPInametestffoxany",
@@ -204,7 +225,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567594329517
+    "lastSave": 1567594866737
   },
   "VCS_STATE": {
     "provider": "GitHub",
