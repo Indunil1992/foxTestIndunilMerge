@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/lambda.js",
-        "code": "\nexports.handler = function (event, context, callback) {\n\nconsole.log(\"Delete all types of files \");\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -42,32 +42,11 @@
         },
         "customSecurityPolicy": {
           "Version": "2012-10-17",
-          "Statement": [
-            {
-              "Effect": "Allow",
-              "Resource": "arn:aws:codestar:us-east-1::/",
-              "Action": []
-            },
-            {
-              "Effect": "Allow",
-              "Resource": "*",
-              "Action": [
-                "*"
-              ]
-            }
-          ]
+          "Statement": []
         }
       }
     },
-    "deletedFiles": [
-      "foxTestIndunilMerge/__init__.py",
-      "foxTestIndunilMerge/1.txt",
-      "foxTestIndunilMerge/AddNewHTMLFile.html",
-      "foxTestIndunilMerge/AddNewPythonFFile.py",
-      "foxTestIndunilMerge/newJSFile.js",
-      "foxTestIndunilMerge/NewPythonFile.py",
-      "foxTestIndunilMerge/test.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119"
@@ -139,7 +118,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567588600536
+    "lastSave": 1567590993397
   },
   "VCS_STATE": {
     "provider": "GitHub",
