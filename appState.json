@@ -9,7 +9,7 @@
         "isDirectory": true,
         "children": [
           "cfcaa036-66ba-489c-994d-26f657584119",
-          "2e72702d-2621-47de-a0c5-bf24863c1b95"
+          "f63fe958-38f9-4ab1-be81-d2617c279d64"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -45,13 +45,13 @@
       },
       "2e72702d-2621-47de-a0c5-bf24863c1b95": {
         "id": "2e72702d-2621-47de-a0c5-bf24863c1b95",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "parent": "f63fe958-38f9-4ab1-be81-d2617c279d64",
         "name": "lambda-1renamed.js",
         "type": "JS_LAMBDA",
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/lambda-1renamed.js",
+        "filePath": "foxTestIndunilMerge/AddNewDirectory/lambda-1renamed.js",
         "code": "exports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
@@ -61,10 +61,22 @@
           "layers": []
         },
         "triggers": []
+      },
+      "f63fe958-38f9-4ab1-be81-d2617c279d64": {
+        "id": "f63fe958-38f9-4ab1-be81-d2617c279d64",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "AddNewDirectory",
+        "type": "DIRECTORY",
+        "isDirectory": true,
+        "children": [
+          "2e72702d-2621-47de-a0c5-bf24863c1b95"
+        ],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/AddNewDirectory"
       }
     },
     "deletedFiles": [
-      "foxTestIndunilMerge/lambda-1.js"
+      "foxTestIndunilMerge/lambda-1renamed.js"
     ],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
@@ -227,7 +239,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567595350184
+    "lastSave": 1567595500481
   },
   "VCS_STATE": {
     "provider": "GitHub",
