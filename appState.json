@@ -36,17 +36,22 @@
             "config": {}
           }
         ],
-        "testCases": {},
+        "testCases": {
+          "73dd90a6-dbde-4907-b4fc-45dbd19b1bd2": {
+            "id": "73dd90a6-dbde-4907-b4fc-45dbd19b1bd2",
+            "name": "Test event",
+            "functionId": "cfcaa036-66ba-489c-994d-26f657584119",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        },
         "customSecurityPolicy": {
           "Version": "2012-10-17",
           "Statement": []
         }
       }
     },
-    "deletedFiles": [
-      "foxTestIndunilMerge/AddNewDirectory",
-      "foxTestIndunilMerge/AddNewDirectory/lambda-1renamed.js"
-    ],
+    "deletedFiles": [],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119"
@@ -207,7 +212,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567595804405
+    "lastSave": 1567596424066
   },
   "VCS_STATE": {
     "provider": "GitHub",
