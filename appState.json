@@ -70,8 +70,8 @@
           "proxyIntegration": false,
           "enableCORS": false,
           "stageMode": 1,
-          "stageName": "Test",
-          "stageDeploymentId": "z8rbt4",
+          "stageName": "TestM",
+          "stageDeploymentId": "z6dz53",
           "mode": 1
         }
       }
@@ -204,7 +204,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567594077523
+    "lastSave": 1567594329517
   },
   "VCS_STATE": {
     "provider": "GitHub",
