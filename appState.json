@@ -9,7 +9,8 @@
         "isDirectory": true,
         "children": [
           "cfcaa036-66ba-489c-994d-26f657584119",
-          "d63abe14-69ac-452a-947c-0f60fde46973"
+          "d63abe14-69ac-452a-947c-0f60fde46973",
+          "64975f65-16d4-4ab6-ba31-582e1f50a584"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -60,15 +61,27 @@
           "layers": []
         },
         "triggers": []
+      },
+      "64975f65-16d4-4ab6-ba31-582e1f50a584": {
+        "id": "64975f65-16d4-4ab6-ba31-582e1f50a584",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "newJSFile.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/newJSFile.js",
+        "code": ""
       }
     },
     "deletedFiles": [],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119",
-      "d63abe14-69ac-452a-947c-0f60fde46973"
+      "d63abe14-69ac-452a-947c-0f60fde46973",
+      "64975f65-16d4-4ab6-ba31-582e1f50a584"
     ],
-    "currentFileId": "d63abe14-69ac-452a-947c-0f60fde46973",
+    "currentFileId": "64975f65-16d4-4ab6-ba31-582e1f50a584",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -127,7 +140,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567583550185
+    "lastSave": 1567583816257
   },
   "VCS_STATE": {
     "provider": "GitHub",
