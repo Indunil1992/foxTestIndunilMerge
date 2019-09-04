@@ -15,7 +15,8 @@
           "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
           "24848c7c-10c2-4455-b94f-e55519f9a6ff",
           "ee6e229b-1889-444a-abb4-10b99393489f",
-          "909d0ecd-4df4-493e-b1bb-b1f95971c96a"
+          "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
+          "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -139,6 +140,17 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/AddNewSubDirectory"
+      },
+      "b32debaf-ea3f-4c1d-b47b-7af28d173a74": {
+        "id": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "1.txt",
+        "type": "TEXT_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/1.txt",
+        "code": "`console.js:35 [commit] Error: No permission for the repo was found for this user. \r\n{}\r\ne.<computed>\t@\tconsole.js:35\r\nhandleCommitError\t@\tGitCommitComponent.js:613\r\n(anonymous)\t@\tGitCommitComponent.js:459\r\nPromise.then (async)\t\t\r\nprepareToCommit\t@\tGitCommitComponent.js:412\r\nCt\t@\treact-dom.production.min.js:107\r\ncommitLifeCycles\t@\treact-dom.production.min.js:149\r\nt\t@\treact-dom.production.min.js:158\r\nE\t@\treact-dom.production.min.js:169\r\nS\t@\treact-dom.production.min.js:168\r\nbatchedUpdates\t@\treact-dom.production.min.js:171\r\n$\t@\treact-dom.production.min.js:54\r\n_e\t@\treact-dom.production.min.js:71\r\nr\t@\traven.js:375`\r\n\r\nPopup : Commit Failed: No permission for the repo was found for this user.\r\n\r\nWhen user upgrade the account to P and create a pro and dep it"
       }
     },
     "deletedFiles": [],
@@ -149,9 +161,10 @@
       "64975f65-16d4-4ab6-ba31-582e1f50a584",
       "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
       "24848c7c-10c2-4455-b94f-e55519f9a6ff",
-      "ee6e229b-1889-444a-abb4-10b99393489f"
+      "ee6e229b-1889-444a-abb4-10b99393489f",
+      "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
     ],
-    "currentFileId": "ee6e229b-1889-444a-abb4-10b99393489f",
+    "currentFileId": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -218,7 +231,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567584645951
+    "lastSave": 1567585162085
   },
   "VCS_STATE": {
     "provider": "GitHub",
