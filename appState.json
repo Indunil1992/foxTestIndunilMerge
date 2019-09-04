@@ -15,7 +15,6 @@
           "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
           "24848c7c-10c2-4455-b94f-e55519f9a6ff",
           "ee6e229b-1889-444a-abb4-10b99393489f",
-          "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
           "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
         ],
         "isRemovable": false,
@@ -131,18 +130,6 @@
         "filePath": "foxTestIndunilMerge/AddNewHTMLFile.html",
         "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>AddNewHTMLFile</title>\n</head>\n<body>\n\n</body>\n</html>"
       },
-      "909d0ecd-4df4-493e-b1bb-b1f95971c96a": {
-        "id": "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "changeSubDirectoryName",
-        "type": "DIRECTORY",
-        "isDirectory": true,
-        "children": [
-          "d08903b0-a7e9-4498-bf33-484fb0b75a1d"
-        ],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/changeSubDirectoryName"
-      },
       "b32debaf-ea3f-4c1d-b47b-7af28d173a74": {
         "id": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
         "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
@@ -153,21 +140,11 @@
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/1.txt",
         "code": "`console.js:35 [commit] Error: No permission for the repo was found for this user. \r\n{}\r\ne.<computed>\t@\tconsole.js:35\r\nhandleCommitError\t@\tGitCommitComponent.js:613\r\n(anonymous)\t@\tGitCommitComponent.js:459\r\nPromise.then (async)\t\t\r\nprepareToCommit\t@\tGitCommitComponent.js:412\r\nCt\t@\treact-dom.production.min.js:107\r\ncommitLifeCycles\t@\treact-dom.production.min.js:149\r\nt\t@\treact-dom.production.min.js:158\r\nE\t@\treact-dom.production.min.js:169\r\nS\t@\treact-dom.production.min.js:168\r\nbatchedUpdates\t@\treact-dom.production.min.js:171\r\n$\t@\treact-dom.production.min.js:54\r\n_e\t@\treact-dom.production.min.js:71\r\nr\t@\traven.js:375`\r\n\r\nPopup : Commit Failed: No permission for the repo was found for this user.\r\n\r\nWhen user upgrade the account to P and create a pro and dep it"
-      },
-      "d08903b0-a7e9-4498-bf33-484fb0b75a1d": {
-        "id": "d08903b0-a7e9-4498-bf33-484fb0b75a1d",
-        "parent": "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
-        "name": "AddOtherFileMarkdownFile.md",
-        "type": "MARKDOWN_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/changeSubDirectoryName/AddOtherFileMarkdownFile.md",
-        "code": ""
       }
     },
     "deletedFiles": [
-      "foxTestIndunilMerge/AddNewSubDirectory"
+      "foxTestIndunilMerge/changeSubDirectoryName",
+      "foxTestIndunilMerge/changeSubDirectoryName/AddOtherFileMarkdownFile.md"
     ],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
@@ -177,10 +154,9 @@
       "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
       "24848c7c-10c2-4455-b94f-e55519f9a6ff",
       "ee6e229b-1889-444a-abb4-10b99393489f",
-      "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
-      "d08903b0-a7e9-4498-bf33-484fb0b75a1d"
+      "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
     ],
-    "currentFileId": "d08903b0-a7e9-4498-bf33-484fb0b75a1d",
+    "currentFileId": "cfcaa036-66ba-489c-994d-26f657584119",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -247,7 +223,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567586267548
+    "lastSave": 1567586440338
   },
   "VCS_STATE": {
     "provider": "GitHub",
