@@ -10,7 +10,9 @@
         "children": [
           "cfcaa036-66ba-489c-994d-26f657584119",
           "d63abe14-69ac-452a-947c-0f60fde46973",
-          "64975f65-16d4-4ab6-ba31-582e1f50a584"
+          "64975f65-16d4-4ab6-ba31-582e1f50a584",
+          "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
+          "2f9b58f8-4a19-41a5-abbd-153c01ec679f"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -72,6 +74,36 @@
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/newJSFile.js",
         "code": ""
+      },
+      "7344538e-d3a3-4e3e-aeeb-534a0c2f79af": {
+        "id": "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "AddNewPythonFFile.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/AddNewPythonFFile.py",
+        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
+        "config": {
+          "runtime": "python3.6",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": []
+        },
+        "triggers": []
+      },
+      "2f9b58f8-4a19-41a5-abbd-153c01ec679f": {
+        "id": "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "__init__.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/__init__.py",
+        "code": ""
       }
     },
     "deletedFiles": [],
@@ -79,9 +111,10 @@
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119",
       "d63abe14-69ac-452a-947c-0f60fde46973",
-      "64975f65-16d4-4ab6-ba31-582e1f50a584"
+      "64975f65-16d4-4ab6-ba31-582e1f50a584",
+      "7344538e-d3a3-4e3e-aeeb-534a0c2f79af"
     ],
-    "currentFileId": "64975f65-16d4-4ab6-ba31-582e1f50a584",
+    "currentFileId": "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -119,6 +152,14 @@
         "shouldPersist": false,
         "displayOnly": false,
         "editable": true
+      },
+      {
+        "lambdaId": "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
+        "varKey": "PYTHONPATH",
+        "varValue": "/var/runtime:/var/task/foxTestIndunilMerge",
+        "shouldPersist": true,
+        "displayOnly": false,
+        "editable": true
       }
     ],
     "packageJSON": {
@@ -140,7 +181,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567583816257
+    "lastSave": 1567584001760
   },
   "VCS_STATE": {
     "provider": "GitHub",
