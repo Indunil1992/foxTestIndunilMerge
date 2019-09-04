@@ -24,7 +24,7 @@
         "filePath": "foxTestIndunilMerge/lambda.js",
         "code": "\nexports.handler = function (event, context, callback) {\nconsole.log(\"hii world\");\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
-          "runtime": "nodejs10.x",
+          "runtime": "nodejs8.10",
           "handler": "handler",
           "timeout": 60,
           "memory": 128,
@@ -175,7 +175,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567582870405
+    "lastSave": 1567583017010
   },
   "VCS_STATE": {
     "provider": "GitHub",
