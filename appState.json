@@ -106,12 +106,12 @@
   },
   "PROJECT_META": {
     "projectName": "foxTestIndunilMerge",
-    "projectDescription": "check after merge test use github",
-    "projectVersion": "1.0.1",
+    "projectDescription": "check after merge test use github and FFox",
+    "projectVersion": "1.0.2",
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567576433966
+    "lastSave": 1567576575942
   },
   "VCS_STATE": {
     "provider": "GitHub",
