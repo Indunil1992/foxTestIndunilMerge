@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/lambda.js",
-        "code": "let AWS = require('aws-sdk');\nconst ses = new AWS.SES();\n\nexports.handler = function (event, context, callback) {\n\n    ses.sendEmail({\n        Destination: {\n            ToAddresses: ['indunil@adroitlogic.com'],\n            CcAddresses: ['sachithrarajapakse1992@gmail.com'],\n            BccAddresses: []\n        },\n        Message: {\n            Body: {\n                Text: {\n                    Data: `Body body `\n                }\n            },\n            Subject: {\n                Data: 'test Merge '\n            }\n        },\n        Source: 'indunil@adroitlogic.com',\n    }, function (err, data) {\n        if (err) {console.log(err, err.stack);\n         console.log(\"errorrrr\");  } // an error occurred\n        else console.log(data);     \n        console.log(\"successs\");        // successful response\n    });\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "\nexports.handler = function (event, context, callback) {\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -30,12 +30,7 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": [
-          {
-            "resourceName": "apigusEast1sachithraAPInametestapiffoxget",
-            "config": {}
-          }
-        ],
+        "triggers": [],
         "testCases": {
           "387a6d99-7031-486b-bf60-d98b8a76f8af": {
             "id": "387a6d99-7031-486b-bf60-d98b8a76f8af",
@@ -180,7 +175,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567582029626
+    "lastSave": 1567582529315
   },
   "VCS_STATE": {
     "provider": "GitHub",
