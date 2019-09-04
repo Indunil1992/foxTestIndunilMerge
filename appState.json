@@ -137,7 +137,9 @@
         "name": "AddNewSubDirectory",
         "type": "DIRECTORY",
         "isDirectory": true,
-        "children": [],
+        "children": [
+          "d08903b0-a7e9-4498-bf33-484fb0b75a1d"
+        ],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/AddNewSubDirectory"
       },
@@ -151,6 +153,17 @@
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/1.txt",
         "code": "`console.js:35 [commit] Error: No permission for the repo was found for this user. \r\n{}\r\ne.<computed>\t@\tconsole.js:35\r\nhandleCommitError\t@\tGitCommitComponent.js:613\r\n(anonymous)\t@\tGitCommitComponent.js:459\r\nPromise.then (async)\t\t\r\nprepareToCommit\t@\tGitCommitComponent.js:412\r\nCt\t@\treact-dom.production.min.js:107\r\ncommitLifeCycles\t@\treact-dom.production.min.js:149\r\nt\t@\treact-dom.production.min.js:158\r\nE\t@\treact-dom.production.min.js:169\r\nS\t@\treact-dom.production.min.js:168\r\nbatchedUpdates\t@\treact-dom.production.min.js:171\r\n$\t@\treact-dom.production.min.js:54\r\n_e\t@\treact-dom.production.min.js:71\r\nr\t@\traven.js:375`\r\n\r\nPopup : Commit Failed: No permission for the repo was found for this user.\r\n\r\nWhen user upgrade the account to P and create a pro and dep it"
+      },
+      "d08903b0-a7e9-4498-bf33-484fb0b75a1d": {
+        "id": "d08903b0-a7e9-4498-bf33-484fb0b75a1d",
+        "parent": "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
+        "name": "AddOtherFileMarkdownFile.md",
+        "type": "MARKDOWN_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/AddNewSubDirectory/AddOtherFileMarkdownFile.md",
+        "code": ""
       }
     },
     "deletedFiles": [],
@@ -162,9 +175,10 @@
       "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
       "24848c7c-10c2-4455-b94f-e55519f9a6ff",
       "ee6e229b-1889-444a-abb4-10b99393489f",
-      "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
+      "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
+      "d08903b0-a7e9-4498-bf33-484fb0b75a1d"
     ],
-    "currentFileId": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
+    "currentFileId": "d08903b0-a7e9-4498-bf33-484fb0b75a1d",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -231,7 +245,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567585162085
+    "lastSave": 1567585328970
   },
   "VCS_STATE": {
     "provider": "GitHub",
