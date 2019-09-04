@@ -8,14 +8,7 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "cfcaa036-66ba-489c-994d-26f657584119",
-          "d63abe14-69ac-452a-947c-0f60fde46973",
-          "64975f65-16d4-4ab6-ba31-582e1f50a584",
-          "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
-          "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
-          "24848c7c-10c2-4455-b94f-e55519f9a6ff",
-          "ee6e229b-1889-444a-abb4-10b99393489f",
-          "b32debaf-ea3f-4c1d-b47b-7af28d173a74"
+          "cfcaa036-66ba-489c-994d-26f657584119"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -29,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/lambda.js",
-        "code": "\nexports.handler = function (event, context, callback) {\nconsole.log(\"hii world\");\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "\nexports.handler = function (event, context, callback) {\n\nconsole.log(\"Delete all types of files \");\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -54,105 +47,27 @@
               "Effect": "Allow",
               "Resource": "arn:aws:codestar:us-east-1::/",
               "Action": []
+            },
+            {
+              "Effect": "Allow",
+              "Resource": "*",
+              "Action": [
+                "*"
+              ]
             }
           ]
         }
-      },
-      "d63abe14-69ac-452a-947c-0f60fde46973": {
-        "id": "d63abe14-69ac-452a-947c-0f60fde46973",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "test.js",
-        "type": "JS_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/test.js",
-        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
-        "config": {
-          "runtime": "nodejs8.10",
-          "handler": "handler",
-          "timeout": 119,
-          "memory": 256,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "64975f65-16d4-4ab6-ba31-582e1f50a584": {
-        "id": "64975f65-16d4-4ab6-ba31-582e1f50a584",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "newJSFile.js",
-        "type": "JS_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/newJSFile.js",
-        "code": ""
-      },
-      "7344538e-d3a3-4e3e-aeeb-534a0c2f79af": {
-        "id": "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "AddNewPythonFFile.py",
-        "type": "PYTHON_LAMBDA",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/AddNewPythonFFile.py",
-        "code": "def handler(event, context):\n    \n    return {\"message\": \"Successfully executed\"}\n",
-        "config": {
-          "runtime": "python3.6",
-          "handler": "handler",
-          "timeout": 60,
-          "memory": 128,
-          "layers": []
-        },
-        "triggers": []
-      },
-      "2f9b58f8-4a19-41a5-abbd-153c01ec679f": {
-        "id": "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "__init__.py",
-        "type": "PYTHON_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/__init__.py",
-        "code": ""
-      },
-      "24848c7c-10c2-4455-b94f-e55519f9a6ff": {
-        "id": "24848c7c-10c2-4455-b94f-e55519f9a6ff",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "NewPythonFile.py",
-        "type": "PYTHON_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/NewPythonFile.py",
-        "code": ""
-      },
-      "ee6e229b-1889-444a-abb4-10b99393489f": {
-        "id": "ee6e229b-1889-444a-abb4-10b99393489f",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "AddNewHTMLFile.html",
-        "type": "HTML_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/AddNewHTMLFile.html",
-        "code": "<!DOCTYPE html>\n<html>\n<head>\n    <title>AddNewHTMLFile</title>\n</head>\n<body>\n\n</body>\n</html>"
-      },
-      "b32debaf-ea3f-4c1d-b47b-7af28d173a74": {
-        "id": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
-        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "1.txt",
-        "type": "TEXT_FILE",
-        "isDirectory": false,
-        "children": [],
-        "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/1.txt",
-        "code": "`console.js:35 [commit] Error: No permission for the repo was found for this user. \r\n{}\r\ne.<computed>\t@\tconsole.js:35\r\nhandleCommitError\t@\tGitCommitComponent.js:613\r\n(anonymous)\t@\tGitCommitComponent.js:459\r\nPromise.then (async)\t\t\r\nprepareToCommit\t@\tGitCommitComponent.js:412\r\nCt\t@\treact-dom.production.min.js:107\r\ncommitLifeCycles\t@\treact-dom.production.min.js:149\r\nt\t@\treact-dom.production.min.js:158\r\nE\t@\treact-dom.production.min.js:169\r\nS\t@\treact-dom.production.min.js:168\r\nbatchedUpdates\t@\treact-dom.production.min.js:171\r\n$\t@\treact-dom.production.min.js:54\r\n_e\t@\treact-dom.production.min.js:71\r\nr\t@\traven.js:375`\r\n\r\nPopup : Commit Failed: No permission for the repo was found for this user.\r\n\r\nWhen user upgrade the account to P and create a pro and dep it"
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "foxTestIndunilMerge/__init__.py",
+      "foxTestIndunilMerge/1.txt",
+      "foxTestIndunilMerge/AddNewHTMLFile.html",
+      "foxTestIndunilMerge/AddNewPythonFFile.py",
+      "foxTestIndunilMerge/newJSFile.js",
+      "foxTestIndunilMerge/NewPythonFile.py",
+      "foxTestIndunilMerge/test.js"
+    ],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119"
@@ -224,7 +139,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567587503139
+    "lastSave": 1567588600536
   },
   "VCS_STATE": {
     "provider": "GitHub",
