@@ -1,22 +1,30 @@
 let AWS = require('aws-sdk');
-const sns = new AWS.SNS();
+const ses = new AWS.SES();
 
 exports.handler = function (event, context, callback) {
-    sns.listSubscriptionsByTopic({
-        TopicArn: 'arn:aws:sns:us-east-1:318300609668:testsnsindunil'
-    }).promise()
-        .then(data => {
-                        console.log(data);
-                                    console.log("successs");
-
-
-            // your code goes here
-        })
-        .catch(err => {
-            // error handling goes here
-            console.log(err);
-            console.log("errorrr");
-        });
+    ses.sendEmail({
+        Destination: {
+            ToAddresses: ['indunil@adroitlogic.com'],
+            CcAddresses: ['sachithrarajapakse1992@gmail.com'],
+            BccAddresses: []
+        },
+        Message: {
+            Body: {
+                Text: {
+                    Data: `test Text Body`
+                }
+            },
+            Subject: {
+                Data: 'test subject'
+            }
+        },
+        Source: 'indunil@adroitlogic.com',
+    }, function (err, data) {
+        if (err) {console.log(err, err.stack); // an error occurred
+        console.log("an error occurred");}
+        else console.log(data);           // successful response
+        console.log("successful response");
+    });
 
     callback(null, { "message": "Successfully executed" });
 }
