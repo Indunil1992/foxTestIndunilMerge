@@ -95,6 +95,11 @@
           "version": "2.176.0",
           "dev": true,
           "notRemovable": false
+        },
+        "address": {
+          "name": "address",
+          "version": "1.1.2",
+          "language": "javascript"
         }
       }
     }
@@ -106,7 +111,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567573324567
+    "lastSave": 1567573919478
   },
   "VCS_STATE": {
     "provider": "GitHub",
