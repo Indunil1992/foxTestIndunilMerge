@@ -21,9 +21,9 @@ exports.handler = function (event, context, callback) {
         Source: 'indunil@adroitlogic.com',
     }, function (err, data) {
         if (err) {console.log(err, err.stack); // an error occurred
-        console.log("an error occurred");}
+        console.log("an error occurred:SES");}
         else console.log(data);           // successful response
-        console.log("successful response");
+        console.log("successful response:SES");
     });
 
     callback(null, { "message": "Successfully executed" });
