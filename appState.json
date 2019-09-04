@@ -134,14 +134,14 @@
       "909d0ecd-4df4-493e-b1bb-b1f95971c96a": {
         "id": "909d0ecd-4df4-493e-b1bb-b1f95971c96a",
         "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
-        "name": "AddNewSubDirectory",
+        "name": "changeSubDirectoryName",
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
           "d08903b0-a7e9-4498-bf33-484fb0b75a1d"
         ],
         "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/AddNewSubDirectory"
+        "filePath": "foxTestIndunilMerge/changeSubDirectoryName"
       },
       "b32debaf-ea3f-4c1d-b47b-7af28d173a74": {
         "id": "b32debaf-ea3f-4c1d-b47b-7af28d173a74",
@@ -162,11 +162,13 @@
         "isDirectory": false,
         "children": [],
         "isRemovable": true,
-        "filePath": "foxTestIndunilMerge/AddNewSubDirectory/AddOtherFileMarkdownFile.md",
+        "filePath": "foxTestIndunilMerge/changeSubDirectoryName/AddOtherFileMarkdownFile.md",
         "code": ""
       }
     },
-    "deletedFiles": [],
+    "deletedFiles": [
+      "foxTestIndunilMerge/AddNewSubDirectory"
+    ],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
       "cfcaa036-66ba-489c-994d-26f657584119",
@@ -245,7 +247,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567585328970
+    "lastSave": 1567586267548
   },
   "VCS_STATE": {
     "provider": "GitHub",
