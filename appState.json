@@ -8,7 +8,8 @@
         "type": "DIRECTORY",
         "isDirectory": true,
         "children": [
-          "cfcaa036-66ba-489c-994d-26f657584119"
+          "cfcaa036-66ba-489c-994d-26f657584119",
+          "d63abe14-69ac-452a-947c-0f60fde46973"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -40,14 +41,34 @@
             "eventTemplate": "hello-world"
           }
         }
+      },
+      "d63abe14-69ac-452a-947c-0f60fde46973": {
+        "id": "d63abe14-69ac-452a-947c-0f60fde46973",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "test.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/test.js",
+        "code": "exports.handler = function(event, context, callback) {\n    \n    callback(null, {\"message\": \"Successfully executed\"});\n}",
+        "config": {
+          "runtime": "nodejs8.10",
+          "handler": "handler",
+          "timeout": 119,
+          "memory": 256,
+          "layers": []
+        },
+        "triggers": []
       }
     },
     "deletedFiles": [],
     "rootNode": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
     "openFiles": [
-      "cfcaa036-66ba-489c-994d-26f657584119"
+      "cfcaa036-66ba-489c-994d-26f657584119",
+      "d63abe14-69ac-452a-947c-0f60fde46973"
     ],
-    "currentFileId": "cfcaa036-66ba-489c-994d-26f657584119",
+    "currentFileId": "d63abe14-69ac-452a-947c-0f60fde46973",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -106,7 +127,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567583226854
+    "lastSave": 1567583550185
   },
   "VCS_STATE": {
     "provider": "GitHub",
