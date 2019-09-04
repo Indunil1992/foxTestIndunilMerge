@@ -12,7 +12,8 @@
           "d63abe14-69ac-452a-947c-0f60fde46973",
           "64975f65-16d4-4ab6-ba31-582e1f50a584",
           "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
-          "2f9b58f8-4a19-41a5-abbd-153c01ec679f"
+          "2f9b58f8-4a19-41a5-abbd-153c01ec679f",
+          "24848c7c-10c2-4455-b94f-e55519f9a6ff"
         ],
         "isRemovable": false,
         "filePath": "foxTestIndunilMerge"
@@ -104,6 +105,17 @@
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/__init__.py",
         "code": ""
+      },
+      "24848c7c-10c2-4455-b94f-e55519f9a6ff": {
+        "id": "24848c7c-10c2-4455-b94f-e55519f9a6ff",
+        "parent": "0efe1d6f-8d49-4f93-900f-0f94bdd134a7",
+        "name": "NewPythonFile.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "foxTestIndunilMerge/NewPythonFile.py",
+        "code": ""
       }
     },
     "deletedFiles": [],
@@ -112,9 +124,10 @@
       "cfcaa036-66ba-489c-994d-26f657584119",
       "d63abe14-69ac-452a-947c-0f60fde46973",
       "64975f65-16d4-4ab6-ba31-582e1f50a584",
-      "7344538e-d3a3-4e3e-aeeb-534a0c2f79af"
+      "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
+      "24848c7c-10c2-4455-b94f-e55519f9a6ff"
     ],
-    "currentFileId": "7344538e-d3a3-4e3e-aeeb-534a0c2f79af",
+    "currentFileId": "24848c7c-10c2-4455-b94f-e55519f9a6ff",
     "resources": {},
     "customTemplate": {
       "dialect": null,
@@ -181,7 +194,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567584001760
+    "lastSave": 1567584211849
   },
   "VCS_STATE": {
     "provider": "GitHub",
