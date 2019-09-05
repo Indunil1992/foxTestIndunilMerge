@@ -22,7 +22,7 @@
         "children": [],
         "isRemovable": true,
         "filePath": "foxTestIndunilMerge/lambda.js",
-        "code": "exports.handler = function (event, context, callback) {\n\n\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
+        "code": "exports.handler = function (event, context, callback) {\nconsole.log(\"GM Alll\");\n    callback(null, { \"message\": \"Successfully executed\" });\n}",
         "config": {
           "runtime": "nodejs8.10",
           "handler": "handler",
@@ -212,7 +212,7 @@
     "projectRegion": "us-east-1",
     "platform": "AWS",
     "platformRegions": {},
-    "lastSave": 1567598487278
+    "lastSave": 1567658990851
   },
   "VCS_STATE": {
     "provider": "GitHub",
